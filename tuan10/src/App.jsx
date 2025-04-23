@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import Counter from './components/Counter';
 import TodoList from './components/TodoList';
 import ThemeToggle from './components/ThemeToggle';
+import ShoppingCart from './components/ShoppingCart';
 
 function App() {
 
@@ -21,6 +22,11 @@ function App() {
         <section>
           <h2 className="text-2xl font-bold mb-4">📋 Câu 2: To-do List</h2>
           <TodoList />
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold mb-4">🎯 Câu 4: Giỏ Hàng</h2>
+          <ShoppingCart />
         </section>
       </div>
     </div>
