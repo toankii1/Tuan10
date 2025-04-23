@@ -6,6 +6,7 @@ import ThemeToggle from './components/ThemeToggle';
 import ShoppingCart from './components/ShoppingCart';
 import Auth from './components/Auth';
 import UserList from './components/UserList';
+import AdvancedCounter from './components/AdvancedCounter';
 
 function App() {
 
@@ -37,6 +38,10 @@ function App() {
 
         <section>
           <UserList />
+        </section>
+
+        <section>
+          <AdvancedCounter />
         </section>
       </div>
     </div>
