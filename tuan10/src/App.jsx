@@ -5,6 +5,7 @@ import TodoList from './components/TodoList';
 import ThemeToggle from './components/ThemeToggle';
 import ShoppingCart from './components/ShoppingCart';
 import Auth from './components/Auth';
+import UserList from './components/UserList';
 
 function App() {
 
@@ -31,7 +32,11 @@ function App() {
         </section>
 
         <section>
-          <Auth /> 
+          <Auth />
+        </section>
+
+        <section>
+          <UserList />
         </section>
       </div>
     </div>
