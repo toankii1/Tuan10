@@ -4,6 +4,7 @@ import Counter from './components/Counter';
 import TodoList from './components/TodoList';
 import ThemeToggle from './components/ThemeToggle';
 import ShoppingCart from './components/ShoppingCart';
+import Auth from './components/Auth';
 
 function App() {
 
@@ -27,6 +28,10 @@ function App() {
         <section>
           <h2 className="text-2xl font-bold mb-4">🎯 Câu 4: Giỏ Hàng</h2>
           <ShoppingCart />
+        </section>
+
+        <section>
+          <Auth /> 
         </section>
       </div>
     </div>

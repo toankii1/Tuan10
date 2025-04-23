@@ -3,6 +3,7 @@ import counterReducer from '../features/counter/counterSlice';
 import todoReducer from '../features/todos/todoSlice'
 import themeReducer from '../features/theme/themeSlice';
 import cartSlice from  '../features/cart/cartSlice';
+import authReducer from '../features/auth/authSlice'
 
 export const store = configureStore({
   reducer: {
@@ -10,5 +11,6 @@ export const store = configureStore({
     todos: todoReducer,
     theme: themeReducer,
     cart: cartSlice,
+    auth: authReducer,
   },
 });
