@@ -6,6 +6,7 @@ import cartSlice from  '../features/cart/cartSlice';
 import authReducer from '../features/auth/authSlice'
 import userReducer from '../features/users/userSlice'
 import bmiReducer from '../features/bmi/bmiSlice';
+import eventReducer from '../features/event/eventSlice';
 
 
 export const store = configureStore({
@@ -17,5 +18,6 @@ export const store = configureStore({
     auth: authReducer,
     users: userReducer,
     bmi : bmiReducer,
+    events : eventReducer,
   },
 });

@@ -8,6 +8,7 @@ import Auth from './components/Auth';
 import UserList from './components/UserList';
 import AdvancedCounter from './components/AdvancedCounter';
 import BMIForm from './components/BMIForm';
+import EventManager from './components/EventManager';
 
 function App() {
 
@@ -47,6 +48,10 @@ function App() {
 
         <section>
           <BMIForm />
+        </section>
+
+        <section>
+          <EventManager />
         </section>
       </div>
     </div>
