@@ -7,6 +7,7 @@ import ShoppingCart from './components/ShoppingCart';
 import Auth from './components/Auth';
 import UserList from './components/UserList';
 import AdvancedCounter from './components/AdvancedCounter';
+import BMIForm from './components/BMIForm';
 
 function App() {
 
@@ -42,6 +43,10 @@ function App() {
 
         <section>
           <AdvancedCounter />
+        </section>
+
+        <section>
+          <BMIForm />
         </section>
       </div>
     </div>
